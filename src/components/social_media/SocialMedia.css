@@ -1,0 +1,16 @@
+.social-media {
+    display: flex;
+    width: 2.655rem;
+    height: 2.655rem;
+    padding: 0.66375rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.76563rem;
+    background: #393E46;
+    transition: 0.5s;
+}
+
+
+.social-media:hover {
+    transform: translateY(-10px);
+}

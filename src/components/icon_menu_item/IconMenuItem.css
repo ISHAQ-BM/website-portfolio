@@ -1,0 +1,16 @@
+.icon-menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.55313rem;
+    gap: 0.55313rem;
+}
+
+.icon-menu-item p {
+    color: #EEE;
+    font-family: Poppins;
+    font-size: 0.99563rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

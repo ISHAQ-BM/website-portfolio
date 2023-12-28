@@ -1,0 +1,10 @@
+.social-media-menu {
+    display: flex;
+    gap: 1.3275rem;
+}
+
+.social-media-menu > li{
+
+    list-style: none;
+    
+}

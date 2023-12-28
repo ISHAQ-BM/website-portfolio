@@ -1,0 +1,46 @@
+nav {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 2.655rem 5.31rem;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 2.655rem;
+}
+
+
+.menu-item {
+    color:  #EEE;
+    font-family: Poppins;
+    font-size: 0.99563rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+
+.menu-item:hover {
+    color: #00ADB5;
+
+}
+
+.logo {
+    color:  #EEE;
+    font-family: Oswald;
+    font-size: 1.3275rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

@@ -1,0 +1,9 @@
+.icon-menu{
+    display: flex;
+    gap: 2.655rem;
+    margin: 1.5rem;
+}
+
+.icon-menu > li{
+    list-style: none;
+}

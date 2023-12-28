@@ -1,0 +1,14 @@
+button{
+    display: flex;
+    padding: 0.55313rem 1.77rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55313rem;
+    border-radius: 1.3275rem;
+    text-shadow: 0px 3.54px 3.54px rgba(0, 0, 0, 0.50);
+    font-size: 0.99563rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-style: none;
+}

@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 6rem;
+
+}
+
+footer > p {
+    color: rgba(238, 238, 238, 0.75);
+    font-family: Poppins;
+    font-size: 0.99563rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: flex-end;
+    margin-top: 3rem;
+}
