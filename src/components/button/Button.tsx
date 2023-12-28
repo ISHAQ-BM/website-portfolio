@@ -1,20 +1,19 @@
 import Icon from '../icon/Icon'
-import './Button.css'
 
 type Props={
     text:string,
-    iconDisabled:boolean
+    iconNotDisabled:boolean
     iconSrc:string,
-    iconAlt:string
+    iconAlt:string,
+    type?: "button" | "submit" | "reset"
     
 }
 
-const Button = ({text,iconDisabled,iconSrc,iconAlt}:Props) => {
+const Button = ({text,iconNotDisabled,iconSrc,iconAlt,type}:Props) => {
   return (
-    <button >
+    <button type={type}>
         {text}
-        {iconDisabled && <Icon iconSrc={iconSrc} iconAlt={iconAlt} />}
-
+        {iconNotDisabled && <Icon iconSrc={iconSrc} iconAlt={iconAlt} />}
     </button>
   )
 }

@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-items: center;
     justify-content: space-between;
-    padding: 2.655rem 5.31rem;
+    padding: 2rem 5rem;
     z-index: 1;
     position: fixed;
     top: 0;

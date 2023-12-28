@@ -1,0 +1,87 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.3275rem;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #EEE;
+    font-family: Poppins;
+    font-size: 0.99563rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    gap: 0.55313rem;
+    
+
+}
+
+input {
+    padding: 0.885rem 1.3275rem;
+    border-radius: 0.885rem;
+    width: 15.93rem;
+    background-color: rgba(57, 62, 70, 0.50);
+    border-style: none;
+    box-sizing: border-box;
+    color: #EEE;
+    outline: none;
+}
+
+
+
+textarea {
+    padding: 0.885rem 1.3275rem;
+    border-radius: 0.885rem;
+    background-color: rgba(57, 62, 70, 0.50);
+    border-style: none;
+    height: 15.4875rem;
+    width: 100%;
+    border-style: none;
+    outline: none;
+    color: #EEE;
+    box-sizing: border-box;
+}
+
+form > Button {
+    background:  #00ADB5;
+}
+
+.user-info {
+    display: flex;
+    gap: 1.3275rem;
+   
+}
+
+.message{
+    align-self: stretch;
+}
+
+
+
+::placeholder {
+    color: rgba(238, 238, 238, 0.50);
+    font-family: Poppins;
+    font-size: 0.99563rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 1;
+    /* Firefox */
+}
+
+::-ms-input-placeholder {
+    /* Edge 12 -18 */
+    color: rgba(238, 238, 238, 0.50);
+
+    font-family: Poppins;
+    font-size: 0.99563rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

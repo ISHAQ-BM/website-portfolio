@@ -1,4 +1,3 @@
-
 import './App.css'
 import Home from './Home';
 import NavBar from './components/navbar/Navbar'
@@ -10,11 +9,11 @@ function App() {
   return (
     <>
       <NavBar />
-      <Routes>
+         <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="*" element={<div>404 Not Found</div>}></Route>
-      </Routes>
-     </>
+         </Routes>
+    </>
   )
 }
 
