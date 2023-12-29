@@ -1,0 +1,69 @@
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./projects-section-bg.svg');
+    background-clip: border-box;
+    gap: 3rem;
+    padding: 10rem 0;
+
+
+}
+
+.projects-section > p {
+    color: #EEE;
+    font-family: Poppins;
+    font-size: 3.54rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+
+
+.projects-section > p > span {
+    color:  #00ADB5;
+    font-family: Poppins;
+    font-size: 3.54rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    gap: 2rem;
+    overflow-x: scroll;
+    
+
+}
+
+.projects-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/*
+
+.center-project{
+    display: flex;
+    z-index: 1;
+    width: 15rem;
+    height: 12rem;
+    padding: 3.37406rem 2.87625rem 3.37406rem 2.82094rem;
+    border-radius: 1.885rem;
+    background: rgba(57, 62, 70, 0.50);
+    backdrop-filter: blur(1.7699999809265137px);
+    margin-right: -20px;
+    margin-left: -20px;
+    
+    
+}
+
+*/

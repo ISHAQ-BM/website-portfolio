@@ -1,0 +1,39 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    width:33%;
+    height: 17rem;
+    box-sizing: border-box;
+    border-radius: 1.885rem;
+    background: rgba(57, 62, 70, 0.50);
+    backdrop-filter: blur(1.7699999809265137px);
+}
+
+.project > img {
+    flex: 1;
+}
+
+.actions{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 2rem;
+    gap: 0.5rem;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.30);
+    border-radius: 0 0 1.885rem 1.885rem;
+}
+
+.github-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: #EEE;
+    font-family: Poppins;
+}
+.github-link:hover{
+    color:#00ADB5;
+    cursor: pointer;
+ }
+
