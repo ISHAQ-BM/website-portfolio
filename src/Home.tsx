@@ -1,12 +1,13 @@
-import Navbar from "./components/navbar/Navbar"
-import Hero from "./homepages/hero/Hero"
+import Footer from "./components/footer/Footer"
+import ContactMe from "./homepages/contactme/ContactMe"
 
 
 const Home = () => {
   return (
-    <section className="home">
-    <Hero />
-    </section>
+    <>
+    <ContactMe />
+    <Footer />
+    </>
   )
 }
 

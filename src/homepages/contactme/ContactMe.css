@@ -1,0 +1,35 @@
+.contact-section {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+
+}
+
+
+.contact-section-content > p {
+    text-align: start;
+    color:  #EEE;
+    font-family: Poppins;
+    font-size: 3.54rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.425rem;
+}
+
+.contact-section-content > p >span {
+
+    color:  #00ADB5;
+    font-family: Poppins;
+    font-size: 3.54rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.425rem;
+}
+
+.contact-section-content > div {
+    display: flex;
+
+}
