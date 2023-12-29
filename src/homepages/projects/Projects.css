@@ -12,6 +12,8 @@
 }
 
 .projects-section > p {
+    position: relative;
+    top: -100%;
     color: #EEE;
     font-family: Poppins;
     font-size: 3.54rem;
@@ -19,6 +21,7 @@
     font-weight: 700;
     line-height: normal;
     margin: 0;
+    animation: slideFromTop 1s forwards;
 }
 
 
@@ -33,18 +36,41 @@
 }
 
 .projects-container {
+    position: relative;
+    bottom: -100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 85%;
     gap: 2rem;
     overflow-x: scroll;
+    animation: slideFromBottom 1s forwards;
     
 
 }
 
 .projects-container::-webkit-scrollbar {
     display: none;
+}
+
+@keyframes slideFromBottom {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes slideFromTop {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
 }
 
 
