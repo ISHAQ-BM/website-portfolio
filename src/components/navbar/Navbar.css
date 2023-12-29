@@ -3,7 +3,6 @@ nav {
     justify-items: center;
     justify-content: space-between;
     padding: 2rem 5rem;
-    z-index: 1;
     position: fixed;
     top: 0;
     right: 0;
