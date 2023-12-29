@@ -8,7 +8,11 @@
 
 }
 
-
+.contact-section-content{
+    position: relative;
+    left: -100%;
+    animation: slideFromLeft 1s forwards;
+}
 .contact-section-content > p {
     text-align: start;
     color:  #EEE;
@@ -32,4 +36,30 @@
 .contact-section-content > div {
     display: flex;
 
+}
+
+.contact-form {
+    position: relative;
+    right: -100%;
+    animation: slideFromRight 1s forwards;
+}
+
+@keyframes slideFromRight {
+    from {
+        right: -100%;
+    }
+
+    to {
+        right:  0;
+    }
+}
+
+@keyframes slideFromLeft {
+    from {
+        left: -100%;
+    }
+
+    to {
+        left: 0;
+    }
 }
