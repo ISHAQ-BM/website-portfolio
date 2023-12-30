@@ -3,18 +3,18 @@ import './Project.css'
 import arrowUpRight from './arrowUpRight.svg'
 
 type Props={
-    link:string,
+    githubLink:string,
     imgSrc:string,
     imgAlt:string
 }
-const Project = ({link,imgSrc,imgAlt}:Props) => {
+const Project = ({githubLink,imgSrc,imgAlt}:Props) => {
     
   return (
     <div className='project'>
         <img src={imgSrc} alt={imgAlt} />
         <div className='actions'>
             <u>
-                <a href={link} className='github-link'>View on Github
+                <a href={githubLink} className='github-link'>View on Github
                 <Icon iconSrc={arrowUpRight} iconAlt={'view on github'} />
                 </a>
             </u>

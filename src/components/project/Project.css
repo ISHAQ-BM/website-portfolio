@@ -12,6 +12,7 @@
 
 .project > img {
     flex: 1;
+    overflow: hidden;
 }
 
 .actions{
