@@ -1,0 +1,76 @@
+.about-me-section {
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 10rem 0;
+}
+
+
+
+
+
+.title > p {
+    color: #EEE;
+    font-family: Poppins;
+    font-size: 3.54rem;
+    font-style: normal;
+    margin: 0;
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+
+.title > p >span {
+    color: #00ADB5;
+    font-family: Poppins;
+    font-size: 3.54rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+.title {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+
+.about-me-content > p {
+    color: rgba(238, 238, 238, 0.75);
+    font-family: Poppins;
+    font-size: 0.99563rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: start;
+    width: 21.51656rem;
+}
+.about-me-content > p> span{
+    color: #EEE;
+    font-family: Poppins;
+    font-size: 0.99563rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+.about-me-content > img {
+    margin-top: 3.55rem;
+    align-self: center;
+
+}
+
+
+.about-me-section >  div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
