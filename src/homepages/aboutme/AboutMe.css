@@ -65,6 +65,13 @@
     margin-top: 3.55rem;
     align-self: center;
 
+
+}
+
+.about-me-section > img{
+    position: relative;
+    right: -100%;
+    animation: slideFromRight 1s forwards;
 }
 
 
@@ -72,5 +79,29 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    position: relative;
+    right: -100%;
+    animation: slideFromLeft 1s forwards;
 
+}
+
+
+@keyframes slideFromRight {
+    from {
+        right: -100%;
+    }
+
+    to {
+        right: 0;
+    }
+}
+
+@keyframes slideFromLeft {
+    from {
+        left: -100%;
+    }
+
+    to {
+        left: 0;
+    }
 }
